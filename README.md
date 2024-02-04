@@ -4,7 +4,7 @@ janvier 2024
 
 Le projet depot-vente est programmé en PHP avec le framework "CakePHP".
 
-Coté client (front), le framework VueJS est utilisé pour les dépôt et pour les ventes.
+Coté client (front), le framework VueJS est utilisé pour les dépôts et pour les ventes.
 
 
 
@@ -49,10 +49,14 @@ puis redemarrer le service apache2
 ```
 Modifiez les paramètres pour correspondre à votre installation
 
-6 - Depuis un navigateur rendez-vous sur la page du projet (par ex http://localhost/depot_vente). Un seul utilisateur est enregistré :
+6 - Depuis le répertoire racine du projet, créez 2 répertoires nommés `logs` et `tmp`.  Sous `tmp`, créez les répertoires : `cache`, `session` et `tests`. Sous Unix/Linux, changez les droits d'accès : `chmod -R 777 ./tmp` et `chmod -R 777 ./logs` (lecture écriture pour tous !).
+
+7 - Depuis un navigateur rendez-vous sur la page du projet (par ex http://localhost/depot_vente). Un seul utilisateur est enregistré :
 nom de connexion : admin, miot de passe : admin.
 
-7 - Quand vous êtes connecté, tout en bas de page, à gauche, cliquez sur le lien "Admin" qui vous permettra de configurer depot-vente
+8 - Quand vous êtes connecté, tout en bas de page, à gauche, cliquez sur le lien "Admin" qui vous permettra de configurer depot-vente
 pour votre évènement.
+
+9 - Les documents PDF générés par _Depot-Vente_ utilisent un fond de page c'est-à-dire une page (de fond) par dessus laquelle sera imprimé le contenu (bon de dépôt, facture...). Ceci vous permet d'apposer entête sur les documents produits par _Depot-Vente_. Le fond de page se trouve sous `vendor/vdw/tcpdf` : `pdf_template.pdf`
 
 -----

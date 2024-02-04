@@ -1,0 +1,89 @@
+/*
+ * $Revision: $
+ */
+a, a:hover {
+    color:#D33C44;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#D33C44;
+    font-size: 110%;
+}
+
+.navbar-dark .navbar-nav .dropdown .dropdown-menu .nav-link{
+    color:#2c3e50;
+}
+.navbar-dark .navbar-nav .dropdown .dropdown-menu .nav-link:hover{
+    color:#D33C44;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ffffff;
+}
+
+.required label:before,
+label.required:before{
+    content: "★ ";
+    color: #D33C44;
+    font-size: 110%;
+}
+
+label {
+    margin: 0.8em 0 0 0;
+}
+
+div.message {
+    padding:6px 10px;
+    border-radius: 4px;
+    margin: 6px 0;
+}
+
+div.message.error {
+    color: #D33C44;
+    background-color: #ffbcce;
+}
+div.message.success {
+    color: #008c6c;
+    background-color: #acffed;
+}
+div.message.warning {
+    color: #f39c12;
+    background-color: #ffd5aa;
+}
+div.message.info {
+    color: #2c3e50 ;
+    background-color: #d5e2ff;
+}
+
+
+div.error-message {
+    color: #D33C44;
+    font-size: 90%;
+    padding:4px;
+    border-radius: 3px;
+    background-color: #F3BCC4;
+    margin: -4px 0 16px 4px;
+}
+.hidden {
+    display:none;
+}
+
+ul.pagination li {
+    margin-left: 4px ;
+    margin-right: 4px ;
+}
+
+
+div.checkbox > label {
+    display: inline;
+}
+div.checkbox > label > input{
+    display: inline;
+    width:auto;
+    height: auto;
+    margin-right: 8px;
+}
+
+.hm {
+    font-size: 90%;
+}
